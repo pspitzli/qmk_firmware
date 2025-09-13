@@ -21,25 +21,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		                         KC_LGUI, TL_LOWR, KC_ENT,    KC_SPC, TL_UPPR, KC_LALT 
     ),
     [1] = LAYOUT(
-		    DE_CIRC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, DE_QUES, DE_ACUT, 
-		    KC_TRNS, DE_AT, KC_TRNS, DE_EURO, KC_TRNS, KC_TRNS,                  KC_TRNS, DE_UDIA, KC_TRNS, DE_ODIA, DE_PLUS, DE_TILD, 
-		    KC_TRNS, DE_ADIA, DE_SS, DE_LCBR, DE_LPRN, KC_TRNS,                  KC_TRNS, DE_RPRN, DE_RCBR, KC_TRNS, KC_TRNS, KC_TRNS, 
-		    KC_TRNS, DE_PIPE, KC_TRNS, DE_LABK, DE_LBRC, KC_TRNS, KC_TRNS,     KC_TRNS, KC_TRNS, DE_RBRC, DE_RABK, KC_TRNS, KC_TRNS, KC_TRNS, 
-		                                       KC_TRNS, KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS
+		    DE_CIRC, _______, _______, _______, _______, _______,                        _______, _______, _______, _______, DE_QUES, DE_ACUT, 
+		    _______, DE_AT  , _______, DE_EURO, _______, _______,                        _______, DE_UDIA, _______, DE_ODIA, DE_PLUS, DE_TILD, 
+		    _______, DE_ADIA, DE_SS  , DE_LCBR, DE_LPRN, _______,                        _______, DE_RPRN, DE_RCBR, _______, _______, _______, 
+		    _______, DE_PIPE, _______, DE_LABK, DE_LBRC, _______, _______,      _______, _______, DE_RBRC, DE_RABK, _______, DE_SLSH, _______, 
+		                                        _______, _______, _______,      _______, _______, _______
     ),
     [2] = LAYOUT(
-		    KC_F12, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,                              KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, 
-		    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                   KC_HOME, KC_PGDN, KC_PGUP, KC_END, KC_TRNS, KC_TRNS, 
-		    KC_TRNS, KC_MPRV, KC_MNXT, KC_VOLU, KC_PGUP, KC_TRNS,                   KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, RM_VALU, EE_CLR, 
-		    KC_TRNS, KC_MSTP, KC_MPLY, KC_VOLD, KC_PGDN, KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS, RM_HUED, RM_SATD, RM_VALD, KC_TRNS, 
-		                                        KC_TRNS, KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS
+		    KC_F12 , KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                       KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , 
+		    _______, _______, _______, _______, _______, _______,                       KC_HOME, KC_PGDN, KC_PGUP, KC_END , _______, _______, 
+		    _______, KC_MPRV, KC_MNXT, KC_VOLU, KC_PGUP, _______,                       KC_LEFT , KC_DOWN, KC_UP  , KC_RGHT, RM_VALU, EE_CLR , 
+		    _______, KC_MSTP, KC_MPLY, KC_VOLD, KC_PGDN, _______, _______,      _______, _______, _______, RM_HUED, RM_SATD, RM_VALD, _______, 
+		                                        _______, _______, _______,      _______, _______, _______
     ),
     [3] = LAYOUT(
 		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                               KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 		    QK_BOOT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                             KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, QK_BOOT,
 		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                               KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
 		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
-		                               KC_NO, KC_NO, KC_TRNS,                KC_NO, KC_NO, KC_TRNS, KC_NO
+		                               KC_NO, KC_NO, _______,                KC_NO, KC_NO, _______, KC_NO
     )
 };
 
