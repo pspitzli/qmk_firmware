@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		                         KC_LGUI, TL_LOWR, KC_ENT,    KC_SPC, TL_UPPR, KC_LALT 
     ),
     [1] = LAYOUT(
-		    DE_CIRC, DE_EXLM, _______, _______, _______, _______,                        _______, _______, _______, _______, DE_QUES, DE_ACUT, 
+		    DE_CIRC, _______, _______, _______, _______, _______,                        _______, _______, _______, _______, DE_QUES, DE_ACUT, 
 		    _______, DE_AT  , _______, DE_EURO, _______, _______,                        _______, DE_UDIA, _______, DE_ODIA, DE_PLUS, DE_TILD, 
 		    _______, DE_ADIA, DE_SS  , DE_LCBR, DE_LPRN, _______,                        _______, DE_RPRN, DE_RCBR, _______, _______, _______, 
 		    _______, DE_PIPE, _______, DE_LABK, DE_LBRC, _______, _______,      _______, _______, DE_RBRC, DE_RABK, _______, DE_SLSH, _______, 
