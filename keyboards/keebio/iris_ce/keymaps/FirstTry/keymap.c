@@ -5,6 +5,8 @@
 #include "keymap_german.h"
 #include "sendstring_german.h"
 
+// Keycode to launch rofi as configured in my sway-config.
+const uint16_t KC_LAUNCH = LALT(KC_SPC); 
 
 /* THIS FILE WAS GENERATED!
  *
@@ -14,32 +16,32 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-		    QK_GESC, KC_1, KC_2, KC_3, KC_4, KC_5,               KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC, 
-		    KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T,                DE_Z, KC_U, KC_I, KC_O, KC_P, DE_PLUS, 
-		    KC_LSFT, KC_A, KC_S, KC_D, KC_F, KC_G,               KC_H, KC_J, KC_K, KC_L, DE_HASH, KC_RSFT, 
-		    KC_LCTL, DE_Y, KC_X, KC_C, KC_V, KC_B, KC_HOME,   KC_END, KC_N, KC_M, DE_COMM, DE_DOT, DE_MINS, KC_RCTL, 
-		                         KC_LGUI, TL_LOWR, KC_ENT,    KC_SPC, TL_UPPR, KC_LALT 
+		    QK_GESC, KC_1, KC_2, KC_3, KC_4, KC_5,                 KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC, 
+		    KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T,                  DE_Z, KC_U, KC_I, KC_O, KC_P, KC_DEL, 
+		    KC_LSFT, KC_A, KC_S, KC_D, KC_F, KC_G,                 KC_H, KC_J, KC_K, KC_L, DE_HASH, KC_RSFT, 
+		    KC_LCTL, DE_Y, KC_X, KC_C, KC_V, KC_B, KC_WFAV,   KC_LAUNCH, KC_N, KC_M, DE_COMM, DE_DOT, DE_MINS, KC_RCTL, 
+		                         KC_LGUI, TL_LOWR, KC_ENT ,    KC_SPC, TL_UPPR, KC_LALT 
     ),
     [1] = LAYOUT(
-		    DE_CIRC, _______, _______, _______, _______, _______,                        _______, _______, _______, _______, DE_QUES, DE_ACUT, 
+		    DE_CIRC, _______, _______, _______, _______, _______,                        _______, _______, _______, DE_BSLS, DE_QUES, DE_ACUT, 
 		    _______, DE_AT  , _______, DE_EURO, _______, _______,                        _______, DE_UDIA, _______, DE_ODIA, DE_PLUS, DE_TILD, 
 		    _______, DE_ADIA, DE_SS  , DE_LCBR, DE_LPRN, _______,                        _______, DE_RPRN, DE_RCBR, _______, _______, _______, 
 		    _______, DE_PIPE, _______, DE_LABK, DE_LBRC, _______, _______,      _______, _______, DE_RBRC, DE_RABK, _______, DE_SLSH, _______, 
 		                                        _______, _______, _______,      _______, _______, _______
     ),
     [2] = LAYOUT(
-		    KC_F12 , KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                       KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , 
-		    _______, _______, _______, _______, _______, _______,                       KC_HOME, KC_PGDN, KC_PGUP, KC_END , _______, _______, 
-		    _______, KC_MPRV, KC_MNXT, KC_VOLU, KC_PGUP, _______,                       KC_LEFT , KC_DOWN, KC_UP  , KC_RGHT, RM_VALU, EE_CLR , 
-		    _______, KC_MSTP, KC_MPLY, KC_VOLD, KC_PGDN, _______, _______,      _______, _______, _______, RM_HUED, RM_SATD, RM_VALD, _______, 
-		                                        _______, _______, _______,      _______, _______, _______
+		    KC_F12 , KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                        KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , 
+		    _______, _______, _______, _______, _______, _______,                        KC_HOME, KC_PGDN, KC_PGUP, KC_END , _______, _______, 
+		    _______, _______, _______, KC_VOLU, KC_APP , _______,                        KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, _______, _______, 
+		    _______, _______, _______, KC_VOLD, _______, _______, _______,      _______, _______, _______, _______, _______, _______, _______, 
+		                                        KC_LALT, _______, _______,      _______, _______, _______
     ),
     [3] = LAYOUT(
 		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                               KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 		    QK_BOOT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                             KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, QK_BOOT,
 		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                               KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
-		                               KC_NO, KC_NO, _______,                KC_NO, KC_NO, _______, KC_NO
+		    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+		                            KC_NO, _______, KC_NO,                 KC_NO, _______, KC_NO
     )
 };
 
