@@ -24,9 +24,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT(
 		    DE_CIRC, _______, _______, _______, _______, _______,                        _______, _______, _______, DE_BSLS, DE_QUES, DE_ACUT, 
-		    _______, DE_AT  , _______, DE_EURO, _______, _______,                        _______, DE_UDIA, _______, DE_ODIA, DE_PLUS, DE_TILD, 
+		    _______, DE_AT  , _______, DE_LABK, DE_EURO, _______,                        _______, DE_UDIA, DE_RABK, DE_ODIA, DE_PLUS, DE_TILD, 
 		    _______, DE_ADIA, DE_SS  , DE_LCBR, DE_LPRN, _______,                        _______, DE_RPRN, DE_RCBR, _______, _______, _______, 
-		    _______, DE_PIPE, _______, DE_LABK, DE_LBRC, _______, _______,      _______, _______, DE_RBRC, DE_RABK, _______, DE_SLSH, _______, 
+		    _______, DE_PIPE, _______, _______, DE_LBRC, _______, _______,      _______, _______, DE_RBRC, S(DE_COMM), _______, DE_SLSH, _______, 
 		                                        KC_LALT, _______, _______,      _______, _______, _______
     ),
     [2] = LAYOUT(
